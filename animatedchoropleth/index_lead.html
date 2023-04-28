@@ -85,7 +85,7 @@
         // for example, for the default dataset us.objects.polygons, enter polygons
         var featureCollection = "usa";
         // id field in the topojson file
-        var idfield = "GEOID"
+        var idfield = "NAME"
         var csvFile = "data/Beer.csv";
         var attributeAlias = "Beer Consumed (%)";
 
@@ -98,11 +98,11 @@
 
         // width and height of map frame
         var height = 600;
-        var width = 900;
+        var width = 750;
 
         // Find the abbreviations of color names from https://colorbrewer2.org/
         var colors =  colorbrewer.Reds;
-        var numOfClasses = 9;
+        var numOfClasses = 5;
 
         //DO NOT CHANGE ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING
         ////////////////////////////////////////////////////////////////////////////////////////////////
