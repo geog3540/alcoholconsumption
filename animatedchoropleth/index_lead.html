@@ -78,14 +78,14 @@
         <script>
 
         // var topoJSONFile = "data/contour.json";
-        var topoJSONFile = "data/usstates.geojson";
+        var topoJSONFile = "data/usa.geojson";
         // enter the desired projection - note that input geojson has to be in WGS84 GCS
         var projection = d3.geoAlbersUsa();
         //enter the name of the feature or geometry collection within the topoJSONFile
         // for example, for the default dataset us.objects.polygons, enter polygons
-        var featureCollection = "states";
+        var featureCollection = "usa";
         // id field in the topojson file
-        var idfield = "GEOID"
+        var idfield = "NAME"
         var csvFile = "data/beer.csv";
         var attributeAlias = "Beer Consumed (%)";
 
