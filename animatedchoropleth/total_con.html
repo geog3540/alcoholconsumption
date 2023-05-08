@@ -83,15 +83,15 @@
         var projection = d3.geoAlbersUsa();
         //enter the name of the feature or geometry collection within the topoJSONFile
         // for example, for the default dataset us.objects.polygons, enter polygons
-        var featureCollection = "beer_final";
+        var featureCollection = "Total_Con";
         // id field in the topojson file
         var idfield = "GEOID"
         var csvFile = "data/Total_Con.csv";
-        var attributeAlias = "Beer Consumed (%)";
+        var attributeAlias = "Total Alcohol Consumed (%)";
 
         // enter the minimum and maximum values of the attribute over years
         // one legend is created based on equal interval classification for all years.
-        var min = 0.5, max = 2.2;
+        var min = 1, max = 7;
 
         //enter the beginning year or date/time of animation.
         var beginTime = 1977, endTime = 2016;
