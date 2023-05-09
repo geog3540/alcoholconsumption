@@ -78,15 +78,15 @@
         <script>
 
         // var topoJSONFile = "data/contour.json";
-        var topoJSONFile = "data/Total_Con.geojson";
+        var topoJSONFile = "data/wine_con.geojson";
         // enter the desired projection - note that input geojson has to be in WGS84 GCS
         var projection = d3.geoAlbersUsa();
         //enter the name of the feature or geometry collection within the topoJSONFile
         // for example, for the default dataset us.objects.polygons, enter polygons
-        var featureCollection = "Total_Con";
+        var featureCollection = "wine_con";
         // id field in the topojson file
         var idfield = "GEOID"
-        var csvFile = "data/Total_Con.csv";
+        var csvFile = "data/wine_con.csv";
         var attributeAlias = "Total Alcohol Consumed (%)";
 
         // enter the minimum and maximum values of the attribute over years
